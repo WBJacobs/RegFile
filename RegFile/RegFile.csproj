@@ -3,19 +3,18 @@
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <IsPackable>true</IsPackable>
-    <PackageId>Cklutz.RegFile</PackageId>
+    <PackageId>WBJacobs.RegFile</PackageId>
     <Version>1.0.0</Version>
-    <Authors>Christian Klutz</Authors>
-    <Description>
-    Allows reading (and importing) .reg files.
-    </Description>
+    <Authors>Wessel Jacobs</Authors>
+    <Description>Allows reading (and importing) .reg files.</Description>
     <InformationalVersion>$(Version).0</InformationalVersion>
     <FileVersion>$(Version).0</FileVersion>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
-    <RepositoryUrl>https://github.com/cklutz/RegFile</RepositoryUrl>
+    <RepositoryUrl>https://github.com/WBJacobs/RegFile</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <LangVersion>12</LangVersion>
+    <Company>Wessel Jacobs</Company>
   </PropertyGroup>
 
   <ItemGroup>
